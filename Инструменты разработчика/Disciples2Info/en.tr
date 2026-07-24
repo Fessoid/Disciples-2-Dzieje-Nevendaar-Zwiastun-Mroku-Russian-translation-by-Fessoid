@@ -1,0 +1,132 @@
+﻿Level / threshold:==>Level / Threshold:
+Exp:==>Experience for lvlup:
+ExpKill:==>Experience per kill:
+ExpToGive:==>Experience:
+AttackDamage:==>Attack damage:
+Ini:==>Initiative:
+ReviveCost:==>Revive cost:
+BuildCost:==>Build cost:
+HealCost:==>Heal cost:
+Regen, %:==>Regeneration, %:
+Resistance:==>Ward:
+L_PARALYZE==>Paralysis
+L_FEAR==>Fear
+L_PETRIFY==>Petrify
+L_TRANSFORM_OTHER==>Transform
+L_SHATTER==>Shatter
+L_LOWER_DAMAGE==>Lower damage
+L_LOWER_INITIATIVE==>Lower initiative
+L_POISON==>Poison
+L_FROSTBITE==>Frostbite
+L_BLISTER==>Blister
+L_DRAIN_LEVEL==>Drain level
+L_WEAPON==>Weapon
+L_MIND==>Mind
+L_EARTH==>Earth
+L_FIRE==>Fire
+L_AIR==>Air
+L_DEATH==>Death
+L_LIFE==>Life
+L_DOPPELGANGER==>Doppelganger
+L_DAMAGE==>Damage
+L_WATER==>Water
+L_DRAIN==>Life drain
+L_HOLY==>Holy
+L_DRAIN_OVERFLOW==>Drain overflow
+L_SOLDIER==>Soldier
+L_LEADER==>Leader
+L_SUMMON==>Summon
+L_ILLUSION==>Illusion
+L_GUARDIAN==>Guardian
+IG_name==>Items
+SS_name==>Spells
+BB_name==>Buildings
+UU_name==>Units
+L_SUMMON:==>Summons:
+L_TRANSFORM_OTHER:==>Transform other:
+L_TRANSFORM_SELF:==>Self transform:
+L_TRANSFORM_SELF==>Self transform
+L_BOOST_DAMAGE==>Boost damage
+L_GIVE_ATTACK==>Give attack
+L_HEAL==>Heal
+L_BESTOW_WARDS==>Bestow wards
+L_REVIVE==>Revive
+L_CURE==>Cure
+HU==>Empire
+UN==>Undead hordes
+HE==>Legions of the damned
+DW==>Mountain clans
+NE==>Neutrals
+EL==>Elven alliance
+LR_name==>Lords
+lords_view_help==>Min. level Name [priority for AI]
+units_view_help==>The level threshold is responsible for changing the unit's increments, for example, a unit in the Level column is "1 (10)", and in the health column "100 (+10 / +5)" - this means that for each level up to 10 it will receive an increase in 10 health, and for 11, 12, etc. only 5. In the case of complex attacks, units sometimes display 2 accuracy (for example "100% / 100% (+1, 0)"), in this case it is not an increase in the first attack and an increase the second, and the growth of both before the threshold and after the threshold. The incorruptibility of the leaders is responsible for reducing the chance of a thief's actions on the unit led by this hero.
+SB_name==>Spellbook
+L_NOBLE==>Thief
+nobble_village_info==>For the garrison of the village, the chance is lower by (level - 1) * 10%
+nobble_leaders==>--Against leaders--
+nobble_village==>--Against villages--
+nobble_village_and_leader==>--Against villages and leaders--
+nobble_traders==>--Against traders--
+nobble_other==>--Other--
+ExpConsumed:==>Consumed Exp:
+Give exp==>Give exp
+Clear==>Clear
+ITEM_ARMOR==>Armor
+ITEM_WEAPON==>Weapon
+ITEM_JEWEL==>Relic
+ITEM_BANNER==>Banner
+ITEM_BOOST==>Boost
+ITEM_HEAL==>Heal
+ITEM_REVIVE==>Revive
+ITEM_PERMANENT==>Permanent
+ITEM_SCROLL==>Scroll
+ITEM_WAND==>Wand
+ITEM_VALUABLE==>Valuable
+ITEM_ORB==>Orb
+ITEM_TALISMAN==>Talisman
+ITEM_TRAVEL==>Travel
+ITEM_SPECIAL==>Special
+SPELL_ATTACK==>Damage
+SPELL_HEAL==>Heal
+SPELL_LOWER==>Lower
+SPELL_BOOST==>Boost
+SPELL_SUMMON==>Summon
+SPELL_FOG==>Fog
+SPELL_UNFOG==>Unfog
+SPELL_RESTORE_MOVE==>Restore move
+SPELL_INVISIBILITY==>Invisibility
+SPELL_REMOVE_ROD==>Remove rod
+SPELL_CHANGE_TERRAIN==>Change terrain
+L_HUMAN==>Human Empire
+L_UNDEAD==>Undead Hordes
+L_HERETIC==>Legions of Damned
+L_DWARF==>Mountain Clans
+L_ELF==>Elven Alliance
+L_NEUTRAL==>Neutral
+L_NEUTRAL_HUMAN==>Human
+L_NEUTRAL_ELF==>Elf
+L_NEUTRAL_BARBARIAN==>Barbarian
+L_NEUTRAL_GREEN_SKIN==>Green skin
+L_NEUTRAL_MARSH==>Marsh
+L_NEUTRAL_WATER==>Water
+L_NEUTRAL_WOLF==>Wolf
+L_NEUTRAL_DRAGON==>Dragon
+ATTACK_ONCE==>Attack once
+ATTACK_TWICE==>Attack twice
+SIZE_SMALL==>Small
+SIZE_BIG==>Big
+SEX_MALE==>Male
+SEX_FEMALE==>Female
+crit==>crit
+L_GUILD==>Guild
+L_HEAL==>Heal
+L_MAGIC==>Magic
+L_UNIT==>Unit
+L_FIGHTER==>Fighter
+L_ARCHER==>Archers
+L_MAGE==>Mages
+L_SPECIAL==>Special
+L_SIDESHOW==>Sideshow
+L_CUSTOM==>Special
+EP_name==>Evolve

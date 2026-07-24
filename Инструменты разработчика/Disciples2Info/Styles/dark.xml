@@ -1,0 +1,12 @@
+<style>
+  <name>Dark</name>
+  <custom_offsetX>140</custom_offsetX>
+  <custom_offsetY>80</custom_offsetY>
+  <image_back>Game:Interf:_PG0500IX</image_back>
+  <image_info>Game:Interf:_PG0300IX</image_info>
+  <color_back>54, 57, 63</color_back>
+  <color_foreground>74, 77, 83</color_foreground>
+  <color_font>134, 137, 143</color_font>
+  <color_imageFont>#282828</color_imageFont>
+  <color_selected>68, 92, 68, 127</color_selected>
+</style>

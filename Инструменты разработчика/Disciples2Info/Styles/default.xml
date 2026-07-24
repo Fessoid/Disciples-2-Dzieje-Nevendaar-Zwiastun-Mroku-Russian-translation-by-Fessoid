@@ -1,0 +1,11 @@
+<style>
+  <name>default</name>
+  <custom_offsetX>140</custom_offsetX>
+  <custom_offsetY>80</custom_offsetY>
+  <image_back>Game:Interf:_PG0500IX</image_back>
+  <image_info>Game:Interf:_PG0300IX</image_info>
+  <color_back>240,240,240</color_back>
+  <color_font>#282828</color_font>
+  <color_imageFont>#282828</color_imageFont>
+  <color_selected>68, 92, 68, 127</color_selected>
+</style>

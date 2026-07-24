@@ -1,0 +1,118 @@
+﻿##24.09.2025 11.00
+#ru
+    1) добавлена возможность скрывать вкладки
+    2) экспорт теперь учитывает фильтры(спасибо RockWolf)
+#en
+    1) Added the ability to hide tabs
+    2) Export now takes filters into account (thanks to RockWolf)
+##24.02.2025 11.00
+#ru
+    1) Теперь может открывать даже файлы заблокированные другими программами (спасибо Fessoid_Slava)
+    2) Добавлена вкладка зданий (спасибо Criogen92)
+    3) Добавлена вкладка эволюции, отображающая прокачку юнитов
+#en
+    1) Now it can open files even if they are locked by other programs (thanks to Fessoid_Slava)
+    2) Added a Buildings tab (thanks to Criogen92)
+    3) Added an Evolution tab that displays unit progression
+
+
+##13.01.2025 12:00
+#ru
+    1) Добавлено отображение эффективного ХП
+#en
+    1) Added effective HP display
+##21.12.2024 23:10
+#ru
+    1) Добавлена вкладка для картоделов (автор - Норвежская Семга)
+    2) В некоторых местах поддержан перенос строки
+#en
+      1) Added a tab for map makers (author: Norwegian Salmon)  
+      2) Line breaks supported in certain areas
+##12.01.2024 16:00
+#ru
+    1) Добавлены фильтры защиты и иммунитеты(спасибо Dedication)
+    2) Расширен фильтр с уровнем существ с 5 до 10 уровня(текущий лимит в мсс32)  
+    3) Теперь фильтры расположены вертикально
+#en
+    1) Added protection filters and immunities (thanks Dedication)
+    2) The creature level filter has been expanded from 5 to 10 (the current limit is in mss32)  
+    3) The filters are now positioned vertically
+##12.12.2023 11:00
+#ru
+    1) увеличено возможное число модификаторов на юните
+    2) ускорен поиск
+    3) ctrl + F теперь фокусируется и выделяет текст в поле поиска
+    4) текст фильтра теперь сохраняется для вкладки 
+    5) исправлено отображение некоторых текстов и изображений
+    6) исправлена стоимость талисманов при фильтре по стоимости
+#en
+    1) the possible number of modifiers on the unit has been increased
+    2) the search has been accelerated
+    3) ctrl+F now focuses and highlights the text in the search field
+    4) The filter text is now saved for the tab 
+    5) fixed the display of some texts and images
+    6) fixed the cost of talismans when filtering by cost
+##11.11.2023 23:00
+#ru
+1. Исправлено отображение некоторых иконок предметов(фиолетовый цвет)
+      2)  Добавлена возможность отображения предметов с цветными названиями
+      3) Улучшено отображение кастомных модификаторов в режиме мододела
+#en
+1. Fixed the display of some item icons (purple color).
+2. Added the ability to display items with colored names.
+3. Improved the display of custom modifiers in modder mode.
+##26.07.2023 11:00
+#ru
+1. исправлено отображение дефолтных перков лидера
+2. Добавлен фильтр по стоимости предметов
+#en
+1. fixed the display of the default leader perks
+2. Added item cost filter
+##20.05.2023 11:00
+#ru
+1. добавлено отображение дефолтных перков лидера
+#en
+1. added the display of the default leader perks
+##06.09.2022 11:00
+#ru
+1. добавлено отображение длительности паралича
+2. улучшено отображение стоимости зданий в мане
+3. улучшена стабильность
+#en
+1. added the display of the duration of paralysis
+2. improved the display of the cost of buildings in mana
+3. improved stability
+##22.07.2022 03:41
+#ru
+1. Изменён механизм проверки обновлений(убрано гугл апи)
+2. Пофикшено отображение крита и округление урона
+#en
+1. Changed the mechanism for checking updates (removed Google api)
+2. Fixed crit display and damage rounding
+##18.07.2022 00:00
+#ru
+3. Добавлено отображение врожденных модификаторов юнитов(прирожденный лидер на моде Хонеста)
+4. Улучшено отображение перков лорда(может отображать больше перков и поддерживает цвета, в режиме мододела они теперь видны в списке)
+#en
+3. Added the display of default unit modifiers (a born leader on the Honest mod)
+4. improved the display of lord's perks (can display more perks and supports colors, in developer mode they are now visible in the list)
+##14.05.2022 00:00
+#ru
+5. Добавлена кнопка фильтров, спасибо Positiff_Pff
+6. Поправлена падение при парсинге луа файла настроек
+7. Добавлено отображение кастомного крита юнитов
+#en
+5. Added a filter button, thanks Positiff_Pff
+6. Fixed a crash when parsing the lua settings file
+7. Added custom unit crit display
+
+
+##09.03.2022 00:00
+#ru
+8. Добавлена кнопка проверки обновлений и возможность обновить программу (спасибо RockWolf)
+9. Теперь отображается реальный крит, выставленный в луа
+10. Отображаются длительные эффекты
+#en
+8. Added an update check button and the ability to update the program (thanks to Rock Wolf)
+9. Now the real crit value from  lua settings is displayed
+10. Long-lasting effects are displayed

@@ -1,0 +1,228 @@
+﻿All targets==>Все цели
+Any 1 target==>Любая 1 цель
+Melee target==>Ближайшая цель
+Level / threshold:==>Уровень / порог:
+Exp:==>Опыт до уровня:
+ExpKill:==>За убийство:
+ExpToGive:==>Опыт:
+HP:==>Здоровье:
+Armor:==>Броня:
+Attack:==>Атака:
+Source:==>Источник:
+Accuracy:==>Точность:
+AttackDamage:==>Урон:
+Ini:==>Инициатива:
+Target:==>Цель:
+Cost:==>Найм:
+BuildCost:==>Стоимость строительства:
+ReviveCost:==>Воскрешение:
+HealCost:==>Лечение:
+Living in:==>Обитает:
+Regen, %:==>Регенерация:
+Trained from:==>Обучается из:
+Immunity:==>Иммунитет:
+Resistance:==>Защита:
+Boost:==>Усиление:
+Heal:==>Лечение:
+Cleance:==>Очищение:
+L_PARALYZE==>Паралич
+L_FEAR==>Страх
+L_PETRIFY==>Окаменение
+L_TRANSFORM_OTHER==>Превращение
+L_SHATTER==>Разрушение брони
+L_LOWER_DAMAGE==>Ослабление
+L_LOWER_INITIATIVE==>Замедление
+L_POISON==>Яд
+L_FROSTBITE==>Мороз
+L_BLISTER==>Ожог
+L_DRAIN_LEVEL==>Понижение уровня
+None==>Нет
+L_WEAPON==>Оружие
+L_MIND==>Разум
+L_EARTH==>Земля
+L_FIRE==>Огонь
+L_AIR==>Воздух
+L_DEATH==>Смерть
+L_LIFE==>Жизнь
+L_DOPPELGANGER==>Сменить обличие
+L_DAMAGE==>Повреждение
+L_WATER==>Вода
+L_DRAIN==>Вампиризм
+L_HOLY==>Святой
+L_DRAIN_OVERFLOW==>Тауматургия
+Author:==>Автор
+Name:==>Имя:
+Size:==>Размер:
+Format:==>Формат:
+Races:==>Расы:
+or==>или
+L_SOLDIER==>Солдат
+L_LEADER==>Лидер
+L_SUMMON==>Вызываемый
+L_ILLUSION==>Иллюзия
+L_GUARDIAN==>Защитник
+Game path:==>Путь к игре:
+Parse==>Считать
+Units==>Существа
+Leadership:==>Лидерство:
+Move:==>Очки хода
+Scout:==>Обзор
+Nobility:==>Неподкупность
+Life time:==>Время жизни
+Export==>Экспорт
+Level:==>Уровень:
+Save==>Сохранить
+Upgrade to:==>Улучшается в:
+Spells:==>Заклинания:
+Reserch:==>Изучение:
+Spells==>Заклинания
+Cast:==>Использование:
+IG_name==>Предметы
+SS_name==>Заклинания
+BB_name==>Здания
+UU_name==>Юниты
+Back==>Назад
+L_SUMMON:==>Призывает:
+L_TRANSFORM_OTHER:==>Превращает:
+single==>одного
+all battlfield==>все поле боя
+L_TRANSFORM_SELF:==>Превращает своего:
+L_TRANSFORM_SELF==>Трансформация
+L_BOOST_DAMAGE==>Усиление
+L_GIVE_ATTACK==>Дает атаку
+L_HEAL==>Лечит
+L_BESTOW_WARDS==>Защищает
+L_REVIVE==>Воскрешает
+L_CURE==>Очищает
+Contain spell:==>Содержит заклинание:
+Сonsumes mana:==>Расходует ману:
+No==>Нет
+Yes==>Да
+Summons unit:==>Вызывает существо:
+HU==>Империя
+UN==>Нежить
+HE==>Демоны
+DW==>Кланы
+NE==>Нейтралы
+EL==>Эльфы
+LR_name==>Лорды
+lords_view_help==>Мин. уровень Название [приоритет для ИИ]
+units_view_help==>Порог уровня отвечает за смену приростов юнита, например у юнита в графе Уровень стоит "1(10)", а в графе здоровье "100(+10 / +5)" - это означает что за каждый уровень до 10 он будет получать прибавку в 10 здоровья, а за 11, 12 итд только 5. В случае со сложными атаками у юнитов порой отображается 2 точности(например "100% / 100% (+1 , 0)"), в данном случае это не прирост первой атаки и прирост второй, а прирост обеих до порога и после порога. Неподкупность у лидеров отвечает за снижение шанса действий вора на возглавляемый этим героем отряд.
+Creator mode==>Режим мододела
+About==>О программе
+About {0}==>О программе {0}
+Version {0}==>Версия {0}
+Source Code:==>Исходный код: 
+Log==>Лог
+, split between targets==> : на число целей
+Area:==>Зона поражения:
+Targets:==>Целей:
+Unit self==>Сам юнит
+Undefined==>Не задано
+SB_name==>Книга заклинаний
+L_NOBLE==>Вор
+nobble_village_info==>*Для гарнизона города шанс ниже на (уровень - 1) * 10% 
+nobble_leaders==>--Против лидеров--
+nobble_village==>--Против городов--
+nobble_village_and_leader==>--Против городов и лидеров--
+nobble_traders==>--Против торговцев--
+nobble_other==>--Иное--
+ExpConsumed:==>Требуемый опыт:
+Give exp==>Влить опыт
+Clear==>Сброс
+(Lasting)==>(Длительный)
+The updated version found!==>Найдена обновленная версия!
+The updated version found! Download and install?==>Найдена обновленная версия! Скачать и установить?
+The latest version is used!==>Используется актуальная версия!
+Failed to get version info!==>Не получилось получить информацию о версии!
+Updates==>Обновления
+Level 1==>Уровень 1
+Level 2==>Уровень 2
+Level 3==>Уровень 3
+Level 4==>Уровень 4
+Level 5==>Уровень 5
+Level 6==>Уровень 6
+Level 7==>Уровень 7
+Level 8==>Уровень 8
+Level 9==>Уровень 9
+Level 10==>Уровень 10
+ITEM_ARMOR==>Броня
+ITEM_WEAPON==>Оружие
+ITEM_JEWEL==>Реликвия
+ITEM_BANNER==>Знамя
+ITEM_BOOST==>Усиление
+ITEM_HEAL==>Исцеление
+ITEM_REVIVE==>Воскрешение
+ITEM_PERMANENT==>Перманентный
+ITEM_SCROLL==>Свиток
+ITEM_WAND==>Посох
+ITEM_VALUABLE==>Ценность
+ITEM_ORB==>Сфера
+ITEM_TALISMAN==>Талисман
+ITEM_TRAVEL==>Снаряжение
+ITEM_SPECIAL==>Особое
+SPELL_ATTACK==>Повреждение
+SPELL_HEAL==>Исцеление
+SPELL_LOWER==>Ослабление
+SPELL_BOOST==>Усиление
+SPELL_SUMMON==>Призывание
+SPELL_FOG==>Затуманивание
+SPELL_UNFOG==>Разведка
+SPELL_RESTORE_MOVE==>Ускорение
+SPELL_INVISIBILITY==>Невидимость
+SPELL_REMOVE_ROD==>Уничтожение жезла
+SPELL_CHANGE_TERRAIN==>Изменение местности
+L_HUMAN==>Защитники Империи
+L_UNDEAD==>Орды Нежити
+L_HERETIC==>Легионы Проклятых
+L_DWARF==>Горные Кланы
+L_ELF==>Эльфийский Союз
+L_NEUTRAL==>Нейтрал
+L_NEUTRAL_HUMAN==>Человек
+L_NEUTRAL_ELF==>Эльф
+L_NEUTRAL_BARBARIAN==>Варвар
+L_NEUTRAL_GREEN_SKIN==>Зеленокожий
+L_NEUTRAL_MARSH==>Болотник
+L_NEUTRAL_WATER==>Морской
+L_NEUTRAL_WOLF==>Волк
+L_NEUTRAL_DRAGON==>Дракон
+ATTACK_ONCE==>Одна атака
+ATTACK_TWICE==>Две атаки
+SIZE_SMALL==>Маленький
+SIZE_BIG==>Большой
+SEX_MALE==>Мужчина
+SEX_FEMALE==>Женщина
+<Category>==><Категория>
+<Level>==><Уровень>
+<Branch>==><Ветка>
+<Subrace>==><Подраса>
+<Source>==><Источник>
+<Effect>==><Эффект>
+<Attack>==><Атака>
+<Size>==><Размер>
+<Gender>==><Пол>
+<Immunity>==><Иммунитет>
+<Ward>==><Защита>
+crit==>крит
+MH_name==>Картоделам
+Scen editor modifiers==>Моды редактора карт
+Modifiers icons==>Иконки модификаторов
+TGlobal strings==>Строки TGlobal
+Attack reach==>Дальность атаки
+Don't have an attack==>Не имеет атаки
+Attack reach number==>Номер дальности атаки
+Units and items modifiers==>Моды юнитов и предметов
+Don't have modifiers==>Не имеет модификаторов
+No effect description==>Нет описания эффекта
+L_GUILD==>Гильдия
+L_HEAL==>Храм
+L_MAGIC==>Башня магии
+L_UNIT==>Юниты
+L_FIGHTER==>Воины
+L_ARCHER==>Стрелки
+L_MAGE==>Маги
+L_SPECIAL==>Поддержка
+L_SIDESHOW==>Специальный
+L_CUSTOM==>Специальный
+EP_name==>Эволюция
+<Race>==><Раса>

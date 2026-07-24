@@ -1,0 +1,11 @@
+<style>
+  <name>Minimal dark</name>
+  <custom_offsetX>10</custom_offsetX>
+  <custom_offsetY>0</custom_offsetY>
+  <image_back>none</image_back>
+  <image_info>dark_info.png</image_info>
+  <color_back>54, 57, 63</color_back>
+  <color_font>134, 137, 143</color_font>
+  <color_imageFont>#eaeaea</color_imageFont>
+  <color_selected>68, 92, 68, 127</color_selected>
+</style>
