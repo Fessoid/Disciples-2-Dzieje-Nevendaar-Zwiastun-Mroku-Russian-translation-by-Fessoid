@@ -28,4 +28,7 @@
 Без возврата<br>
 </details>
 
+[Редактор Интерфейсов Disciples (DLG и Capital.dat)](https://github.com/Fessoid/DLG-Editor-for-Disciples)
+
+ 
 <img width="1069" height="768" alt="Польский мод - Перевод" src="https://github.com/user-attachments/assets/6471b37b-1b19-494b-9e68-ab58c49e7f8a" />
