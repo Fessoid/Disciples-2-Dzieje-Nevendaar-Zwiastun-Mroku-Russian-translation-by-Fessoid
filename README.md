@@ -1,5 +1,5 @@
 # Disciples 2: Мод Dzieje Nevendaar - Zwiastun Mroku v4.9 - Русский перевод by Fessoid (+68 карт)
-**Перевод Польского мода на Disciples 2 by Fessoid от 25.07.2026**
+**Перевод Польского мода на Disciples 2 by Fessoid от 31.07.2026**
 
 Инструкция по установке: [**YouTube**](https://youtu.be/EPriMMzNHKQ)    
 Скачать Полностью мод (+68 карт): [**Boosty**](https://boosty.to/fessoid/posts/8f529e28-8dc7-4846-9bd6-c0cf359a5bb8?share=post_link&utm_source=github)  
