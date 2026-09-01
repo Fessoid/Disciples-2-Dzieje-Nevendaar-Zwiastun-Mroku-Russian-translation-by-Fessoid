@@ -1,0 +1,12 @@
+{
+  "launcher": {
+    "version": "1.0",
+    "url": "https://raw.githubusercontent.com/Fessoid/Disciples-2-Dzieje-Nevendaar-Zwiastun-Mroku-Russian-translation-by-Fessoid/main/Discipl2Pol_Launcher.exe",
+    "notes": "Первая версия лаунчера."
+  },
+  "mod": {
+    "version": "31.07.2026",
+    "url": "https://github.com/Fessoid/Disciples-2-Dzieje-Nevendaar-Zwiastun-Mroku-Russian-translation-by-Fessoid/releases/download/31.07.2026/D2PolskiyModRus_v4.9.zip",
+    "notes": "Перевод от 31.07.2026."
+  }
+}
