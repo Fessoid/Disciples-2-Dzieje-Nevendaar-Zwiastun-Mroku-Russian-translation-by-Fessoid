@@ -37,6 +37,11 @@ using System.Web.Script.Serialization;
 
 [assembly: AssemblyTitle("Discipl2Pol_Launcher")]
 [assembly: AssemblyProduct("Disciples 2: Dzieje Nevendaar - русский перевод")]
+[assembly: AssemblyCompany("Fessoid")]
+// Ссылка на профиль, а не на репозиторий: репозиторий может стать приватным
+// или переехать, профиль остаётся. Свойства файла — единственное место, где
+// человек найдёт автора: своего окна у лаунчера нет.
+[assembly: AssemblyCopyright("© Fessoid — https://github.com/Fessoid")]
 [assembly: AssemblyVersion("1.1.0.0")]
 [assembly: AssemblyFileVersion("1.1.0.0")]
 
