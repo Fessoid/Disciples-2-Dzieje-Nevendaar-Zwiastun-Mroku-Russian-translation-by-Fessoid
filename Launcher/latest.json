@@ -1,8 +1,8 @@
 {
   "launcher": {
-    "version": "1.0",
+    "version": "1.1",
     "url": "https://raw.githubusercontent.com/Fessoid/Disciples-2-Dzieje-Nevendaar-Zwiastun-Mroku-Russian-translation-by-Fessoid/main/Discipl2Pol_Launcher.exe",
-    "notes": "Первая версия лаунчера."
+    "notes": "Лаунчер стал в 400 раз меньше и запускается мгновенно."
   },
   "mod": {
     "version": "31.07.2026",

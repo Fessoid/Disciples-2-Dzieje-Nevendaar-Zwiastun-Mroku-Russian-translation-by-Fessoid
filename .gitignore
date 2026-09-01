@@ -2,7 +2,4 @@
 #Update.md
 
 #Сборка лаунчера
-Launcher/build/
 Launcher/dist/
-Launcher/*.spec
-__pycache__/
