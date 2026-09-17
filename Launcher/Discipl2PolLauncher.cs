@@ -84,6 +84,7 @@ public static class Launcher
         string[] pending = null;
         try
         {
+            MigrateLegacyData();
             pending = CheckUpdates(folder);
         }
         catch
@@ -169,7 +170,12 @@ public static class Launcher
         return path;
     }
 
-    static string StatePath()
+    // Раскладка одна на все программы издателя: издатель → направление →
+    // программа. Лаунчер относится к играм.
+    const string VendorDir = "Fessoid Production Group";
+    const string BranchDir = "Games";
+
+    static string LocalBase()
     {
         string basePath = Environment.GetEnvironmentVariable("LOCALAPPDATA");
         if (string.IsNullOrEmpty(basePath))
@@ -177,11 +183,71 @@ public static class Launcher
             basePath = Environment.GetFolderPath(
                 Environment.SpecialFolder.LocalApplicationData);
         }
+        return basePath;
+    }
+
+    static string DataDir()
+    {
+        string basePath = LocalBase();
         if (string.IsNullOrEmpty(basePath))
         {
             basePath = Path.GetTempPath();
         }
-        return Path.Combine(Path.Combine(basePath, AppName), "state.txt");
+        return Path.Combine(Path.Combine(Path.Combine(basePath, VendorDir),
+                                         BranchDir), AppName);
+    }
+
+    static string StatePath()
+    {
+        return Path.Combine(DataDir(), "state.txt");
+    }
+
+    /// <summary>Разовый перенос из прежней папки: до 1.2 она лежала прямо в
+    /// корне AppData\Local. Без переноса лаунчер забудет пропущенную версию
+    /// перевода и спросит о ней снова.
+    ///
+    /// Файл, который уже есть на новом месте, не трогается ни там, ни там.
+    /// Опустевшая старая папка убирается; непустая остаётся как есть.
+    ///
+    /// Без LOCALAPPDATA прежним адресом была бы папка во временных, где
+    /// лежат загрузки, — такое не переносится.</summary>
+    static void MigrateLegacyData()
+    {
+        string basePath = LocalBase();
+        if (string.IsNullOrEmpty(basePath))
+        {
+            return;
+        }
+        string old = Path.Combine(basePath, AppName);
+        string target = DataDir();
+        try
+        {
+            if (!Directory.Exists(old))
+            {
+                return;
+            }
+            Directory.CreateDirectory(target);
+            foreach (string src in Directory.GetFiles(old))
+            {
+                string dst = Path.Combine(target, Path.GetFileName(src));
+                if (File.Exists(dst))
+                {
+                    continue;
+                }
+                try
+                {
+                    File.Move(src, dst);
+                }
+                catch
+                {
+                }
+            }
+            Directory.Delete(old, false);
+        }
+        catch
+        {
+            // Не перенеслось — лаунчер просто начнёт с чистого состояния.
+        }
     }
 
     // =====================================================================
@@ -844,15 +910,14 @@ public static class Launcher
         // Игра закрывается принудительно, поэтому про несохранённую партию
         // нужно сказать до вопроса, а не после.
         text += "Для установки игра будет закрыта.\n" +
-                "Несохранённая партия пропадёт.\n\nОбновить сейчас?";
+                "\nОбновить сейчас?";
 
         if (!AskYesNo("Обновление перевода", text))
         {
             SetState("skipped_mod_version", version);
             ShowInfo("Обновление пропущено",
-                "Версия перевода " + version + " будет пропущена — больше " +
-                "о ней не спросим.\n\n" +
-                "Скачать её самостоятельно можно по ссылке из файла\n«" +
+                "Версия перевода " + version + " будет пропущена.\n\n" +
+                "Скачать вручную - По ссылке из файла\n«" +
                 ModInfoFile + "» в папке с игрой.");
             return;
         }
@@ -876,7 +941,7 @@ public static class Launcher
         catch (Exception exc)
         {
             ShowError("Обновление не установлено",
-                exc.Message + "\n\nИгра сейчас запустится в прежнем виде.\n" +
+                exc.Message + "\n\nИгра сейчас запустится в прежнем виде.\n\n" +
                 "Скачать перевод вручную можно по ссылке из файла\n«" +
                 ModInfoFile + "» в папке с игрой.");
             StartGame(folder);
