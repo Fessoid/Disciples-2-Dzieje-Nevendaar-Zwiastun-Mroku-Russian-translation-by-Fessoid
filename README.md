@@ -5,7 +5,13 @@
 Обсудить перевод можно в [**Discord**](https://discord.gg/TEHcuyVVTR)
 <br>
 <details> 
-<summary>Рекомендую ознакомиться с шедеврами карт:</summary><br>
+<summary>Рекомендую ознакомиться с шедеврами карт (нажми на надпись)</summary><br>
+
+**4 Саги:**<br>
+Крестовый поход Альянса<br>
+Песнь Беззвёздной Ночи<br>
+Реликвии Мортис<br>
+Сага по мотивам событий Dis1<br>
 
 **Конкурсные карты:**<br>
 В Тени деревьев  
@@ -26,6 +32,7 @@
 Крестовый поход<br>
 Без возврата<br>
 </details>
+<br>
 
 [Редактор Интерфейсов Disciples (DLG и Capital.dat)](https://github.com/Fessoid/Fessoid-DLG-Editor-for-Disciples)
 
