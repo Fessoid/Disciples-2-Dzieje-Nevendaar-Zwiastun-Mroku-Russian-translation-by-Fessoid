@@ -2,7 +2,7 @@
 
 Инструкция по установке: [**YouTube**](https://youtu.be/EPriMMzNHKQ)    
 Скачать Полностью мод (+69 карт + 4 Саги): [**Yandex.Disk**](https://disk.yandex.ru/d/UgJTPKcrABRCLw) / [**Google Disk**](https://drive.google.com/drive/folders/12lN756OdlvA4RYRrtfBY4NChHLEUEEmE?usp=drive_link)<br><br>
-Поддержать разработчика на [**Boosty**](https://boosty.to/fessoid/posts/8f529e28-8dc7-4846-9bd6-c0cf359a5bb8?share=post_link&utm_source=github)<br>
+Поддержать разработчика на [**Boosty**](https://boosty.to/fessoid/single-payment/donation/691096/target?share=target_link&utm_source=github)<br>
 Вопросы задавайте в [**Discord**](https://discord.gg/TEHcuyVVTR)
 <br>
 <details> 
