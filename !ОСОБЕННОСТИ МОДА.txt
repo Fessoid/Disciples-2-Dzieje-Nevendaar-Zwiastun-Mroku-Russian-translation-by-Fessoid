@@ -94,4 +94,7 @@
 ==============
 --> Поддержать перевод: https://boosty.to/fessoid
 
+Обновить перевод вручную: https://github.com/Fessoid/Disciples-2-Dzieje-Nevendaar-Zwiastun-Mroku-Russian-translation-by-Fessoid/releases/latest
 Польский Сайт мода: https://disciples2dn.vercel.app/
+
+Задать вопросы по моду: https://discord.gg/TEHcuyVVTR

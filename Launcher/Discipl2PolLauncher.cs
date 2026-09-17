@@ -42,15 +42,15 @@ using System.Web.Script.Serialization;
 // или переехать, профиль остаётся. Свойства файла — единственное место, где
 // человек найдёт автора: своего окна у лаунчера нет.
 [assembly: AssemblyCopyright("© Fessoid — https://github.com/Fessoid")]
-[assembly: AssemblyVersion("1.1.0.0")]
-[assembly: AssemblyFileVersion("1.1.0.0")]
+[assembly: AssemblyVersion("1.2")]
+[assembly: AssemblyFileVersion("1.2")]
 
 // Класс открытый, чтобы отдельная программа проверок могла дёргать разбор
 // версий, распаковку и подмену файла, не поднимая окон.
 public static class Launcher
 {
     public const string AppName = "Discipl2Pol_Launcher";
-    public const string AppVersion = "1.1";
+    public const string AppVersion = "1.2";
 
     // Манифест, а не /releases/latest: релизы этого репозитория — релизы
     // перевода с тегами-датами, версия лаунчера в такой ряд не встаёт.

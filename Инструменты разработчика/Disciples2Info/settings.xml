@@ -6,7 +6,8 @@
   <pos_W>1382</pos_W>
   <pos_H>744</pos_H>
   <GamePath>D:\Games\D2PolskiyModRus</GamePath>
-  <SavedPaths>;E:\Игры\Installed\D2 Nazar - Lobby;E:\Игры\Installed\D2 Nazar - Ледяное Сердце;D:\Games\D2PolskiyModRus</SavedPaths>
+  <SavedPaths>;E:\Игры\Installed\D2 Nazar - Lobby;E:\Игры\Installed\D2 Nazar - Ледяное Сердце;D:\Games\D2PolskiyModRus;D:\Games\Vanilla</SavedPaths>
   <creator_mode>True</creator_mode>
   <export_txt_in_one_file>False</export_txt_in_one_file>
+  <hide_unit_self_reach>True</hide_unit_self_reach>
 </settings>
