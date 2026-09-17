@@ -84,7 +84,10 @@ public static class Launcher
         string[] pending = null;
         try
         {
+            // Сначала перенос: иначе новая запись заняла бы место прежней,
+            // и перенос её бы уже не тронул.
             MigrateLegacyData();
+            RememberModVersion(folder);
             pending = CheckUpdates(folder);
         }
         catch
@@ -544,6 +547,29 @@ public static class Launcher
             // всё равно останется.
         }
         SetState("mod_version", version);
+    }
+
+    /// <summary>Запись в состоянии подстраховывает файл версии, но раньше
+    /// появлялась, только когда лаунчер ставил перевод или человек отказывался.
+    /// Стоит перевод с файлом версии — записи нет, и удалённый файл заменить
+    /// нечем. Поэтому на каждом запуске, до сети: папка состояния на месте,
+    /// пустая запись заполняется из файла. Непустая не трогается — из двух
+    /// источников по-прежнему берётся более старый.</summary>
+    static void RememberModVersion(string folder)
+    {
+        try
+        {
+            Directory.CreateDirectory(DataDir());
+        }
+        catch
+        {
+        }
+        string fromFile = ReadFileVersion(folder);
+        if (ParseVersion(fromFile).Length > 0 &&
+            ParseVersion(GetState("mod_version")).Length == 0)
+        {
+            SetState("mod_version", fromFile);
+        }
     }
 
     // =====================================================================
